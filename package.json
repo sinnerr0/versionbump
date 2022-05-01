@@ -1,6 +1,6 @@
 {
   "name": "versionbump",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "main": "index.js",
   "repository": "git@github.com:sinnerr0/versionbump.git",
   "author": "kyongsikC <sinnerr0@gmail.com>",
@@ -10,9 +10,9 @@
   },
   "scripts": {
     "release:first": "standard-version -f -t ''",
-    "release:major": "standard-version -t '' -r major && git push --follow-tags",
-    "release:minor": "standard-version -t '' -r minor && git push --follow-tags",
-    "release:patch": "standard-version -t '' -r patch && git push --follow-tags"
+    "release:major": "standard-version -t '' -r major && git push -u --follow-tags",
+    "release:minor": "standard-version -t '' -r minor && git push -u --follow-tags",
+    "release:patch": "standard-version -t '' -r patch && git push -u --follow-tags"
   },
   "standard-version": {
     "issueUrlFormat": "https://green-labs.atlassian.net/browse/{{id}}"
