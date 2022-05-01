@@ -7,5 +7,14 @@
   "license": "MIT",
   "dependencies": {
     "standard-version": "^9.3.2"
+  },
+  "scripts": {
+    "release:first": "standard-version -f -t ''",
+    "release:major": "standard-version -t '' -r major && git push -u origin release && git push --follow-tags",
+    "release:minor": "standard-version -t '' -r minor && git push -u origin release && git push --follow-tags",
+    "release:patch": "standard-version -t '' -r patch && git push -u origin release && git push --follow-tags"
+  },
+  "standard-version": {
+    "issueUrlFormat": "https://green-labs.atlassian.net/browse/{{id}}"
   }
 }
