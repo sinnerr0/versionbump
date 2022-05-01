@@ -13,5 +13,8 @@
     "release:major": "standard-version -t '' -r major",
     "release:minor": "standard-version -t '' -r minor",
     "release:patch": "standard-version -t '' -r patch"
+  },
+  "standard-version": {
+    "issueUrlFormat": "https://green-labs.atlassian.net/browse/{{id}}"
   }
 }
