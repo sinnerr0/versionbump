@@ -10,8 +10,8 @@
   },
   "scripts": {
     "release:first": "standard-version -f -t ''",
-    "release:major": "standard-version -t '' -r major && git push --tags",
-    "release:minor": "standard-version -t '' -r minor && git push --tags",
+    "release:major": "standard-version -t '' -r major && git push --follow-tags",
+    "release:minor": "standard-version -t '' -r minor && git push --follow-tags",
     "release:patch": "standard-version -t '' -r patch && git push --follow-tags"
   },
   "standard-version": {
