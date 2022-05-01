@@ -1,0 +1,11 @@
+{
+  "name": "versionbump",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sinnerr0/versionbump.git",
+  "author": "kyongsikC <sinnerr0@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "standard-version": "^9.3.2"
+  }
+}
