@@ -30,14 +30,12 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.0.1](https://github.com/sinnerr0/versionbump/compare/1.0.0...1.0.1) (2022-05-01)
 
-
 ### Features
 
-* issue url format ([d4225de](https://github.com/sinnerr0/versionbump/commit/d4225de0ef5d00eefc16fccdeee26ac7f3167bd3)), closes [#FF-166](https://green-labs.atlassian.net/browse/FF-166)
+- issue url format ([d4225de](https://github.com/sinnerr0/versionbump/commit/d4225de0ef5d00eefc16fccdeee26ac7f3167bd3)), closes [#FF-166](https://green-labs.atlassian.net/browse/FF-166)
 
 ## 1.0.0 (2022-05-01)
 
-
 ### Features
 
-* add release scripts ([bfe3e72](https://github.com/sinnerr0/versionbump/commit/bfe3e72e10f92fdd54d75812f0bdcfaa4490815a))
+- add release scripts ([bfe3e72](https://github.com/sinnerr0/versionbump/commit/bfe3e72e10f92fdd54d75812f0bdcfaa4490815a))
