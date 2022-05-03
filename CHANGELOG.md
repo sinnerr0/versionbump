@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/sinnerr0/versionbump/compare/1.0.0...1.1.0) (2022-05-03)
+
+
+### Features
+
+* new feature ([37a2e41](https://github.com/sinnerr0/versionbump/commit/37a2e41d54d09f17e082ab9ad2b67ec727dacaac)), closes [#FF-10](https://green-labs.atlassian.net/browse/FF-10)
+
 ## 1.0.0 (2022-05-03)
 
 
